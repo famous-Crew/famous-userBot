@@ -86,7 +86,7 @@ and you ended up in a Finale Battle with Telegram and at the end
 <p align="left"> 𝗨𝗦𝗜𝗡𝗚 • 𝙍𝙀𝙋𝙇𝙄𝙏 • </p>
 
 <p align="left">
-<a href="https://replit.com/@KENZO404/Lynx-String-Session#main.py"><img src="https://img.shields.io/badge/generate_string_session-via_replit-purple?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
+<a href="https://replit.com/@famousCrew/Lynx-String-Session#main.py"><img src="https://img.shields.io/badge/generate_string_session-via_replit-purple?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 </p>
 
 <p align="left"> 𝗨𝗦𝗜𝗡𝗚 • 𝙏𝙀𝙍𝙈𝙄𝙉𝘼𝙇 • </p>
@@ -100,9 +100,9 @@ and you ended up in a Finale Battle with Telegram and at the end
 
  2. Wait for the installation to finish, if you have copied the one below.
 
-<T>   $ pip install telethon && wget https://raw.githubusercontent.com/famous-Crew/famous-userBot/famous-userBot/string_session.py && python string_session.py
+<T>   $ pip install telethon && wget https://raw.githubusercontent.com/famous-Crew/famous-userBot/Lynx-Userbot/string_session.py && python string_session.py
 
-<P>   $ wget https://raw.githubusercontent.com/famous-Crew/famous-String-Session/master/pyrogram-session.py && python string_session.py
+<P>   $ wget https://raw.githubusercontent.com/famous-Crew/Lynx-String-Session/master/pyrogram-session.py && python string_session.py
 
  <T> (For Telethon) and <P> (For Pyrogram)
  Just choose Telethon if you want to deploy.
