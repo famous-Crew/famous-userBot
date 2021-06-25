@@ -31,11 +31,11 @@
 </p>
 
 <h2 align="center">
-⚡Lynx Userbot⚡
+⚡famous userBot⚡
 </p>
 
 <p align="center">
-<a href = "https://heroku.com/deploy?template=https://github.com/famous-Crew/famous-userBot/tree/famous-userBot"><img src="https://telegra.ph/file/f3c656862a017f945c0bc.png" alt="Press to Takeoff" width="490px"></a>
+<a href = "https://heroku.com/deploy?template=https://github.com/famous-Crew/famous-userBot/tree/famous-userBot"><img src="https://telegra.ph/file/8788c86e723584ab07ce4.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <p align="center">
 <a href="https://github.com/famous-Crew/famous-userBot/blob/famous-userBot/LICENSE"><img src="https://img.shields.io/badge/LICENSE_UNDER-Raphielscape_Public_License_v1.d-yellow?style=for-the-badge&logo=github&logoColor=yellow" alt="generate_api"></a>
@@ -100,9 +100,9 @@ and you ended up in a Finale Battle with Telegram and at the end
 
  2. Wait for the installation to finish, if you have copied the one below.
 
-<T>   $ pip install telethon && wget https://raw.githubusercontent.com/KENZO-404/Lynx-Userbot/Lynx-Userbot/string_session.py && python string_session.py
+<T>   $ pip install telethon && wget https://raw.githubusercontent.com/famous-Crew/famous-userBot/famous-userBot/string_session.py && python string_session.py
 
-<P>   $ wget https://raw.githubusercontent.com/KENZO-404/Lynx-String-Session/master/pyrogram-session.py && python string_session.py
+<P>   $ wget https://raw.githubusercontent.com/famous-Crew/famous-String-Session/master/pyrogram-session.py && python string_session.py
 
  <T> (For Telethon) and <P> (For Pyrogram)
  Just choose Telethon if you want to deploy.
@@ -113,7 +113,7 @@ and you ended up in a Finale Battle with Telegram and at the end
 
 ### <h1 align="center"> DEPLOY </p>
 
-<p align="left"> 𝗨𝘀𝗶𝗻𝗴 𝗛𝗲𝗿𝗼𝗸𝘂 </p> <p align="left"><a href="https://ganosecteam.my.id/"><img src="https://img.shields.io/badge/Don't%20Click%20Bro%20,%20Will be Ban-Purple?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="left"> 𝗨𝘀𝗶𝗻𝗴 𝗛𝗲𝗿𝗼𝗸𝘂 </p> <p align="left"><a href="https://t.me/famous_Crew.my/"><img src="https://img.shields.io/badge/Don't%20Click%20Bro%20,%20Will be Ban-Purple?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
  𝗨𝘀𝗶𝗻𝗴 𝗚𝗶𝘁 𝗮𝗻𝗱 𝗣𝘆𝘁𝗵𝗼𝗻𝟯 -- 𝗼𝗻 (𝗟𝗶𝗻𝘂𝘅, 𝗺𝗮𝗰𝗢𝗦, 𝗮𝗻𝗱 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 [𝘃𝗶𝗮 𝗧𝗲𝗿𝗺𝘂𝘅])
 1. Clone this repository on your local machine and `cd` (or `chdir`, anti bloat guy) to it
