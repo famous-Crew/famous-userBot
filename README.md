@@ -1,4 +1,4 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5513591.gif" width="654" height="163" alt="Famous UserBot" /></a>
+<a href="https://cooltext.com"><img src="https://r70.cooltext.com/d.php?renderid=387527942742281&extension=png" width="654" height="163" alt="Famous UserBot" /></a>
 <p align="center"> 🚀 𝗪𝗵𝗶𝗰𝗵 𝗶𝘀 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻 𝗕𝗮𝘀𝗲𝗱 🚀</p>
 <p align="center">
   <a href="https://github.com/famous-Crew/famous-userBot/fork"><img src="https://img.shields.io/github/forks/famous-Crew/famous-userBot?label=Fork&style=social"></a>
