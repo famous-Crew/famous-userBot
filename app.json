@@ -1,6 +1,6 @@
 {
-  "name": "Lynx-Userbot",
-  "description": "[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "famous-userBot",
+  "description": "[⚡famous-userBot⚡] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/f3c656862a017f945c0bc.png",
   "keywords": [
     "telegram",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/KENZO-404/Lynx-Userbot",
-  "telegram": "https://t.me/SyndicateTwenty4",
+  "repository": "https://github.com/famous-Crew/famous-userBot",
+  "telegram": "https://t.me/famous_Crew",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -138,7 +138,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
+      "value": "⚡𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
       "required": false
     },
     "ALIVE_NAME": {
