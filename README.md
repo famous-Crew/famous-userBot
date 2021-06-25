@@ -22,8 +22,8 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/famous-Crew/famous-userBot/commits/famous-userBot"><img src="https://img.shields.io/github/last-commit/famous-Crew/famous-userBot?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
-<a href="https://github.com/famous-Crew/famous-userBot/actions/workflows/main.yml"><img src="https://img.shields.io/github/workflow/status/famous-Crew/famous-userBot/pylint/famous-userBot?style=for-the-badge&logo=github-actions&logoColor=aqua" alt="CI" /></a>
+<a href="https://github.com/famous-Crew/famous-userBot/commits/Lynx-Userbot"><img src="https://img.shields.io/github/last-commit/famous-Crew/famous-userBot?color=ff69b4&logo=github&logoColor=ff69b4&style=for-the-badge" /></a>
+<a href="https://github.com/famous-Crew/famous-userBot/actions/workflows/main.yml"><img src="https://img.shields.io/github/workflow/status/famous-Crew/famous-userBot/pylint/Lynx-Userbot?style=for-the-badge&logo=github-actions&logoColor=aqua" alt="CI" /></a>
 </p>
 <p align="center">
 <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
@@ -35,10 +35,10 @@
 </p>
 
 <p align="center">
-<a href = "https://heroku.com/deploy?template=https://github.com/famous-Crew/famous-userBot/tree/famous-userBot"><img src="https://telegra.ph/file/8788c86e723584ab07ce4.jpg" alt="Press to Takeoff" width="490px"></a>
+<a href = "https://heroku.com/deploy?template=https://github.com/famous-Crew/famous-userBot/tree/Lynx-Userbot"><img src="https://telegra.ph/file/8788c86e723584ab07ce4.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <p align="center">
-<a href="https://github.com/famous-Crew/famous-userBot/blob/famous-userBot/LICENSE"><img src="https://img.shields.io/badge/LICENSE_UNDER-Raphielscape_Public_License_v1.d-yellow?style=for-the-badge&logo=github&logoColor=yellow" alt="generate_api"></a>
+<a href="https://github.com/famous-Crew/famous-userBot/blob/Lynx-Userbot/LICENSE"><img src="https://img.shields.io/badge/LICENSE_UNDER-Raphielscape_Public_License_v1.d-yellow?style=for-the-badge&logo=github&logoColor=yellow" alt="generate_api"></a>
 </p>
 
 <h4 align="center"> 🚫 DISCLAIMER 🚫 </p>
