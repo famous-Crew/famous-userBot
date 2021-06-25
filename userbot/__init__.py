@@ -115,7 +115,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/KENZO-404/Lynx-Userbot")
+    "https://github.com/famous-Crew/famous-userBot")
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Lynx-Userbot")
 
 # Console verbose logging
@@ -363,7 +363,7 @@ with bot:
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ is Back Up and Running!**\n\n"
+        f"**⚡PROGRAMS⚡ is Back Up and Running!**\n\n"
         f"⚙️ **Telethon :** __{version.__version__}__\n"
         f"🐍 **Python :** __{python_version()}__\n"
         f"👤 **User :** __{DEFAULTUSER}__"
@@ -465,7 +465,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
-                                       "t.me/FederationSuperGroup/3"),
+                                       "t.me/AeraStoreOfficial"),
                             Button.url("🚨 𝗠𝗲𝗻𝘂-𝗕𝗮𝗻𝘁𝘂𝗮𝗻 🚨",
                                        "https://telegra.ph/Bantuan-06-11")],
                         [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
@@ -477,10 +477,10 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 await event.reply(
-                    f"⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Deploy to Heroku, Click Here 👇🏻",
+                    f"⚡famous-Crew UserBot⚡ Deploy to Heroku, Click Here 👇🏻",
                     buttons=[
-                        [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/KENZO-404/Lynx-Userbot/tree/Lynx-Userbot")],
-                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/GroupTidakDiketahui")],
+                        [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/famous-Crew/famous-userBot/tree/Lynx-Userbot")],
+                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/botsbusiness_id")],
                     ],
                 )
 
@@ -500,7 +500,7 @@ with bot:
                                           [
                                               custom.Button.url(
                                                   text="🇮🇩 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 🇮🇩",
-                                                  url="https://kenzo-404.github.io/Lynx-Userbot/"
+                                                  url="https://famous-Crew.github.io/famous-userBot/"
                                               )
                                           ]
                                       ]
@@ -534,19 +534,19 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan Dari ⚡Famous-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=False)
             else:
                 result = builder.article(
-                    " ╔╡⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗ ",
-                    text="""**Anda Bisa Membuat ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
+                    " ╔╡⚡Crew-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗ ",
+                    text="""**Anda Bisa Membuat ⚡Crew-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡𝗟𝘆𝗻𝘅⚡",
-                                "https://kenzo-404.github.io/Lynx-Userbot"),
+                                "⚡famous⚡",
+                                "https://famous-Crew.github.io/famous-userBot"),
                             custom.Button.url(
                                 "Dᴇᴠᴇʟᴏᴘᴇʀ",
                                 "t.me/FederationSuperGroup/17")]],
@@ -583,7 +583,7 @@ with bot:
                     file=aliplogo,
                     link_preview=True,
                     buttons=[
-                        [Button.url("⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡", "t.me/LynxUserbot")],
+                        [Button.url("⚡Crew-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡", "t.me/G_zha")],
                         [Button.url("[⊙] 𝗠𝘆 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺", f"{INSTAGRAM_ALIVE}")],
                     ]
                 )
