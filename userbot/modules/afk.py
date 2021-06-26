@@ -1,12 +1,12 @@
 """ Userbot module which contains afk-related commands """
- 
+
 from datetime import datetime
 import time
 from random import choice, randint
- 
+
 from telethon.events import StopPropagation
 from telethon.tl.functions.account import UpdateProfileRequest
- 
+
 from userbot import (  # noqa pylint: disable=unused-import isort:skip
     AFKREASON,
     BOTLOG,
@@ -21,7 +21,7 @@ from userbot import (  # noqa pylint: disable=unused-import isort:skip
     bot,
 )
 from userbot.events import register
- 
+
 # ========================= CONSTANTS ============================
 AFKSTR = [
     f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼════════════╾ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n╰╼═════════╾",
@@ -29,8 +29,8 @@ AFKSTR = [
     f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼════════════╾ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n╰╼═════════╾",
     f"🔥𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼════════════╾ \n┣ {ALIVE_NAME} ꜱᴇᴅᴀɴɢ ᴀꜰᴋ\n╰╼═════════╾",
 ]
- 
- 
+
+
 global USER_AFK  # pylint:disable=E0602
 global afk_time  # pylint:disable=E0602
 global afk_start
@@ -38,10 +38,10 @@ global afk_end
 USER_AFK = {}
 afk_time = None
 afk_start = {}
- 
+
 # =================================================================
- 
- 
+
+
 @register(outgoing=True, pattern="^.afk(?: |$)(.*)", disable_errors=True)
 async def set_afk(afk_e):
     """ For .afk command, allows you to inform people that you are afk when they message you """
@@ -74,8 +74,8 @@ async def set_afk(afk_e):
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
- 
- 
+
+
 @register(outgoing=True)
 async def type_afk_is_not_true(notafk):
     """ This sets your status as not afk automatically when you write something while being afk """
@@ -118,8 +118,8 @@ async def type_afk_is_not_true(notafk):
         COUNT_MSG = 0
         USERS = {}
         AFKREASON = None
- 
- 
+
+
 @register(incoming=True, disable_edited=True)
 async def mention_afk(mention):
     """ This function takes care of notifying the people who mention you that you are AFK."""
@@ -181,8 +181,8 @@ async def mention_afk(mention):
                 else:
                     USERS[mention.sender_id] = USERS[mention.sender_id] + 1
                     COUNT_MSG = COUNT_MSG + 1
- 
- 
+
+
 @register(incoming=True, disable_errors=True)
 async def afk_on_pm(sender):
     """ Function which informs people that you are AFK in PM """
@@ -256,8 +256,8 @@ async def afk_on_pm(sender):
                 else:
                     USERS[sender.sender_id] = USERS[sender.sender_id] + 1
                     COUNT_MSG = COUNT_MSG + 1
- 
- 
+
+
 CMD_HELP.update({
     "afk":
     "`.afk` [Alasan]\
