@@ -85,7 +85,7 @@ def register(**args):
                 return
 
             try:
-                await function(check)
+                await func(check)
 
             # Thanks to @kandnub for this HACK.
             # Raise StopPropagation to Raise StopPropagation
