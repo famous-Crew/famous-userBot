@@ -20,13 +20,27 @@ from userbot import (
     LOGS,
     PM_AUTO_BAN,
     ALIVE_NAME,
+    CUSTOM_PMPERMIT_TEXT,
 )
 
 from userbot.events import register
 
-# ========================= CONSTANTS ============================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
+PM_PERMIT_PIC = os.environ.get("PM_PERMIT_PIC",
+                               None) or "resource/logo/LynxUserbot-Button.jpg"
+if PM_PERMIT_PIC is None:
+    WARN_PIC = "resource/logo/LynxUserbot-Button.jpg"
+else:
+    WARN_PIC = PM_PERMIT_PIC
+
+COUNT_PM = {}
+LASTMSG = {}
+
+# ========================= CONSTANTS ============================
+
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+CUSTOM_MIDDLE_PMP = str(
+    CUSTOM_PMPERMIT_TEXT) if CUSTOM_PMPERMIT_TEXT else f"│Karena Saya Akan Otomatis Memblokir\n│Anda, Tunggu Sampai {DEFAULTUSER}\n│Menerima Pesan Anda, Terimakasih.\n"
 DEF_UNAPPROVED_MSG = (
     "◄┈─╼━━━━━━━━━━━━━━━━━━╾─┈╮\n"
     "ㅤ  “𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐓𝐡𝐞 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞.”\n"
