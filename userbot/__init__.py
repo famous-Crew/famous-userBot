@@ -453,7 +453,7 @@ with bot:
         uid = me.id
 
         aliplogo = "https://telegra.ph/file/14de4763e75e4275d6522.jpg"
-        lynxlogo = "resource/logo/LynxUserbot-Button.jpg"
+        lynxlogo = "https://telegra.ph/file/14de4763e75e4275d6522.jpg"
         plugins = CMD_HELP
 
         @tgbot.on(events.NewMessage(pattern=r"/start"))
@@ -477,10 +477,10 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 await event.reply(
-                    f"⚡famous-Crew UserBot⚡ Deploy to Heroku, Click Here 👇🏻",
+                    f"✨𝐟𝐚𝐦𝐨𝐮𝐬-𝐮𝐬𝐞𝐫𝐁𝐨𝐭 Deploy to Heroku, Click Here 👇🏻",
                     buttons=[
                         [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/famous-Crew/famous-userBot/tree/Lynx-Userbot")],
-                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/botsbusiness_id")],
+                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/botsbusinessid")],
                     ],
                 )
 
@@ -545,7 +545,7 @@ with bot:
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡famous⚡",
+                                "✨𝐟𝐚𝐦𝐨𝐮𝐬-𝐮𝐬𝐞𝐫𝐁𝐨𝐭",
                                 "https://famous-Crew.github.io/famous-userBot"),
                             custom.Button.url(
                                 "Dᴇᴠᴇʟᴏᴘᴇʀ",
