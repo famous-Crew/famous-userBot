@@ -461,7 +461,7 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"Hai 👋 [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang di⚡ 𝚏𝚊𝚖𝚘𝚞𝚜-𝙲𝚛𝚎𝚠 ⚡\nJika Kalian Datang Kesini dan Ingin Mengetahui 𝚝𝚎𝚗𝚝𝚊𝚗𝚐 𝚔𝚊𝚖𝚒 Lebih Lanjut,\nSilahkan Pilih **Menu Bantuan** Dibawah Ini.\n",
+                    f"Hai 👋 [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang di ✨𝐟𝐚𝐦𝐨𝐮𝐬-𝐮𝐬𝐞𝐫𝐁𝐨𝐭\nJika Kalian Datang Kesini dan Ingin Mengetahui 𝚝𝚎𝚗𝚝𝚊𝚗𝚐 𝚔𝚊𝚖𝚒 Lebih Lanjut,\nSilahkan Pilih **Menu Bantuan** Dibawah Ini.\n",
                     buttons=[
                         [
                             Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
@@ -490,8 +490,8 @@ with bot:
                 u = await event.client.get_entity(event.chat_id)
                 await event.message.get_sender()
                 text = (
-                    f"Haii 😼 [{get_display_name(u)}](tg://user?id={u.id}) My Name is @G_zha 🐈\n"
-                    f"Lynx Used For Fun On Telegram✨,\n"
+                    f"Haii [{get_display_name(u)}](tg://user?id={u.id}) My Name is @G_zha 🐈\n"
+                    f"✨𝐟𝐚𝐦𝐨𝐮𝐬-𝐮𝐬𝐞𝐫𝐁𝐨𝐭 Used For Fun On Telegram✨,\n"
                     f"and For Maintaining Your Group 🛠️.\n"
                     f"I was **Created by :** @G_zha For Various Userbots on Github.\n")
                 await tgbot.send_file(event.chat_id, file=lynxlogo,
@@ -534,14 +534,14 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡Famous-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan Dari ✨𝐟𝐚𝐦𝐨𝐮𝐬-𝐮𝐬𝐞𝐫𝐁𝐨𝐭 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=False)
             else:
                 result = builder.article(
-                    " ╔╡⚡Crew-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗ ",
-                    text="""**Anda Bisa Membuat ⚡Crew-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
+                    " ╔╡✨𝐟𝐚𝐦𝐨𝐮𝐬-𝐮𝐬𝐞𝐫𝐁𝐨𝐭╞╗ ",
+                    text="""**Anda Bisa Membuat ✨𝐟𝐚𝐦𝐨𝐮𝐬-𝐮𝐬𝐞𝐫𝐁𝐨𝐭 Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
@@ -549,7 +549,7 @@ with bot:
                                 "https://famous-Crew.github.io/famous-userBot"),
                             custom.Button.url(
                                 "Dᴇᴠᴇʟᴏᴘᴇʀ",
-                                "t.me/FederationSuperGroup/17")]],
+                                "t.me/botsbusinessid")]],
                     link_preview=True,
                 )
             await event.answer([result] if result else None)
@@ -583,7 +583,7 @@ with bot:
                     file=aliplogo,
                     link_preview=True,
                     buttons=[
-                        [Button.url("⚡ Editors ⚡", "t.me/G_zha")],
+                        [Button.url("√ 𝐄𝐝𝐢𝐭𝐨𝐫", "t.me/G_zha")],
                         [Button.url("[⊙] 𝗠𝘆 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺", f"{INSTAGRAM_ALIVE}")],
                     ]
                 )
