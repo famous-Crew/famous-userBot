@@ -461,15 +461,15 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"Hai 👋 [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang di ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\nJika Kalian Datang Kesini dan Ingin Mengetahui Lynx-Robot Lebih Lanjut,\nSilahkan Pilih **Menu Bantuan** Dibawah Ini.\n",
+                    f"Hai 👋 [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang di⚡ 𝚏𝚊𝚖𝚘𝚞𝚜-𝙲𝚛𝚎𝚠 ⚡\nJika Kalian Datang Kesini dan Ingin Mengetahui 𝚝𝚎𝚗𝚝𝚊𝚗𝚐 𝚔𝚊𝚖𝚒 Lebih Lanjut,\nSilahkan Pilih **Menu Bantuan** Dibawah Ini.\n",
                     buttons=[
                         [
                             Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
-                                       "t.me/AeraStoreOfficial"),
+                                       "t.me/AeshaStoreOfficial"),
                             Button.url("🚨 𝗠𝗲𝗻𝘂-𝗕𝗮𝗻𝘁𝘂𝗮𝗻 🚨",
                                        "https://telegra.ph/Bantuan-06-11")],
                         [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                    "t.me/FederationSuperGroup/17")],
+                                    "t.me/G_zha")],
                     ]
                 )
 
@@ -490,10 +490,10 @@ with bot:
                 u = await event.client.get_entity(event.chat_id)
                 await event.message.get_sender()
                 text = (
-                    f"Haii 😼 [{get_display_name(u)}](tg://user?id={u.id}) My Name is 𝗟𝘆𝗻𝘅 🐈\n"
+                    f"Haii 😼 [{get_display_name(u)}](tg://user?id={u.id}) My Name is @G_zha 🐈\n"
                     f"Lynx Used For Fun On Telegram✨,\n"
                     f"and For Maintaining Your Group 🛠️.\n"
-                    f"I was **Created by :** @SyndicateTwenty4 For Various Userbots on Github.\n")
+                    f"I was **Created by :** @G_zha For Various Userbots on Github.\n")
                 await tgbot.send_file(event.chat_id, file=lynxlogo,
                                       caption=text,
                                       buttons=[
@@ -583,7 +583,7 @@ with bot:
                     file=aliplogo,
                     link_preview=True,
                     buttons=[
-                        [Button.url("⚡Crew-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡", "t.me/G_zha")],
+                        [Button.url("⚡ Editors ⚡", "t.me/G_zha")],
                         [Button.url("[⊙] 𝗠𝘆 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺", f"{INSTAGRAM_ALIVE}")],
                     ]
                 )
