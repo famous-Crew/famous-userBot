@@ -90,7 +90,7 @@ CUSTOM_PMPERMIT_TEXT = os.environ.get("CUSTOM_PMPERMIT_TEXT", None)
 # Pm Permit Img
 PM_PERMIT_PIC = os.environ.get(
     "PM_PERMIT_PIC",
-    None) or "https://telegra.ph/file/49ce66ba7e0fa0ce99210.png"
+    None) or "https://telegra.ph/file/14de4763e75e4275d6522.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -189,11 +189,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO",
-    None) or "https://telegra.ph/file/78db3f8bc07d3c4a42c4f.mp4"
+    None) or "https://telegra.ph/file/14de4763e75e4275d6522.jpg"
 
 # Link Instagram for CMD Alive
 INSTAGRAM_ALIVE = os.environ.get(
-    "INSTAGRAM_ALIVE") or "instagram.com/si_axeell"
+    "INSTAGRAM_ALIVE") or "instagram.com/username"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -452,7 +452,7 @@ with bot:
         me = bot.get_me()
         uid = me.id
 
-        aliplogo = "https://telegra.ph/file/b6580efa28fdc144749d5.jpg"
+        aliplogo = "https://telegra.ph/file/14de4763e75e4275d6522.jpg"
         lynxlogo = "resource/logo/LynxUserbot-Button.jpg"
         plugins = CMD_HELP
 
