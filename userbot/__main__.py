@@ -28,6 +28,6 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ⚙️ v. {BOT_VER} [TELAH DIAKTIFKAN!]")
+    f" ✨𝐟𝐚𝐦𝐨𝐮𝐬-𝐮𝐬𝐞𝐫𝐁𝐨𝐭 || 𝐕. {BOT_VER} [TELAH DIAKTIFKAN!]")
 
 bot.run_until_disconnected()
