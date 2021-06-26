@@ -6,11 +6,12 @@
 # From Geez-Project
 """Userbot module for keeping control who PM you."""
 
+import os
 from sqlalchemy.exc import IntegrityError
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from telethon.tl.functions.messages import ReportSpamRequest
 from telethon.tl.types import User
-
+ 
 from userbot import (
     BOTLOG,
     BOTLOG_CHATID,
@@ -20,9 +21,8 @@ from userbot import (
     LOGS,
     PM_AUTO_BAN,
     ALIVE_NAME,
-    CUSTOM_PMPERMIT_TEXT,
+    CUSTOM_PMPERMIT_TEXT
 )
-
 from userbot.events import register
 
 
